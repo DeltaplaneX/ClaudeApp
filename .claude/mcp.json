@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "apify": {
+      "url": "https://mcp.apify.com/?tools=actors,docs,apify/rag-web-browser,apify/website-content-crawler",
+      "transport": "http",
+      "headers": {
+        "Authorization": "Bearer ${APIFY_API_TOKEN}"
+      }
+    }
+  }
+}
